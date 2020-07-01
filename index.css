@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    background-color: #383e56;
+}
+.text{
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.textEffect{
+    display: inline;
+    color: #d4b5b0;
+}
+.effect{
+    display: inline;
+    color: #eedad1;
+}
