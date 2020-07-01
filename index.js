@@ -1,5 +1,5 @@
 var x = 0;
-        var textEffect = "hello";
+        var textEffect = "Welcome, To My Mini Project";
         var t = 0;
         var char = '!£$%^&*_=+*><;: ';
         var textContainer = document.querySelector('.textEffect');
@@ -8,13 +8,13 @@ var x = 0;
             if(t <char.length){
                 effectContainer.innerHTML = char[t];
                 t++;
-                setTimeout(innerAnimation, 80);
+                setTimeout(innerAnimation, 40);
             }
             else{
                 textContainer.innerHTML += textEffect[x];
                 x++;
                 t=0;
-                setTimeout(outerAnimation,100);
+                setTimeout(outerAnimation,50);
             }
         }
         function outerAnimation(){
